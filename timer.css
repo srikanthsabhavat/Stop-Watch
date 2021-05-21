@@ -1,0 +1,43 @@
+.container{
+    height: 300px;
+    width: 100%;
+}
+html,body {
+    background-image: url(assets/img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:0;
+    margin:0;
+    font-family:sans-serif;
+    color:rgb(109, 105, 105);
+    background-color: rgb(163, 165, 158);
+    background-image:image-set()
+  }
+  .img{
+    width:fit-content;
+    height: max-content;
+  }
+#title{
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: 0px auto;
+    color: rgb(136, 93, 125);
+}
+#display{
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: 0px auto;
+}
+#buttons{
+    width:100%;
+    height: auto;
+    margin-bottom:10px;
+    text-align: center;
+    color: rgb(145, 136, 136);
+    padding: 4px 17px;
+}
+button:hover{
+    background-color:rgb(99, 183, 221);
+}
